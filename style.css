@@ -1,0 +1,55 @@
+body {
+  position: absolute;
+  background-color: hsl(253, 90%, 8%);
+  z-index: 3;
+}
+
+.big {
+  position: absolute;
+  background-color: hsl(253, 66%, 16%);
+  height: 40px;
+  width: 40px;
+}
+
+.try {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  height: 2000px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nosignal {
+  position: absolute;
+  left: 500px;
+  top: 140px;
+  width: 800px;
+  height: 600px;
+  z-index: 1;
+}
+.TV {
+  left: 350px;
+  top: 140px;
+  position: absolute;
+  height: 700px;
+  width: 1200px;
+  z-index: 2;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+
+.title {
+  color: aqua;
+}
+
+.first {
+  color: chartreuse;
+}
